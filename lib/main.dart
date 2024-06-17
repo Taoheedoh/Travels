@@ -11,10 +11,12 @@ void main() {
         backgroundColor: Colors.deepPurple[400],
       ),
       body: const Center(
-          //child: Text("Let's Take You There!"),
-          child: Image(
-              image: NetworkImage(
-                  "https://media.istockphoto.com/id/1202923575/photo/beautiful-view-of-sunset-sky-scene-at-eiffel-tower-paris-france.jpg?s=170667a&w=0&k=20&c=9aQ4tj9RgudaNyMv0nkkACO3qFU_RdVsz_SCqUuOg8s="))),
+        //child: Text("Let's Take You There!"),
+        child: Image(image: AssetImage('images/bali.jpg')
+            //NetworkImage(
+            //"https://media.istockphoto.com/id/1202923575/photo/beautiful-view-of-sunset-sky-scene-at-eiffel-tower-paris-france.jpg?s=170667a&w=0&k=20&c=9aQ4tj9RgudaNyMv0nkkACO3qFU_RdVsz_SCqUuOg8s=")
+            ),
+      ),
       backgroundColor: Colors.deepPurple[200],
     )),
   );
